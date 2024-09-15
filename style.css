@@ -1154,3 +1154,23 @@ section {
   font-size: 13px;
   color: #ccc;
 }
+
+
+/* Contenitore delle immagini */
+.owner-images {
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+/* Stile per le immagini */
+.owner-image {
+  width: 45%; /* Modifica la larghezza se necessario */
+  margin: 0 10px; /* Spazio tra le immagini */
+  object-fit: cover; /* Adatta l'immagine senza distorsioni */
+}
+
+/* Assicurati che le immagini non si rompano al di fuori del contenitore */
+.info-section {
+  text-align: center; /* Centra il testo e le immagini */
+}
