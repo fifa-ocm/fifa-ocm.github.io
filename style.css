@@ -5,7 +5,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -116,7 +116,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   height: 70px;
   transition: all 0.5s;
 }
